@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Collins Nudekor's Portfolio</title>
-    <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
+    <!-- <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" /> -->
 
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -33,6 +33,13 @@
     <!-- App Styles -->
     <link rel="stylesheet" href="styles/app.css" />
     <link rel="stylesheet" href="glitch.css" />
+
+    <style>
+      video {
+        max-width: 100%;
+        height: auto;
+      }
+      </style>
   </head>
   <body style="background-color: #151516;">
     <header class="header">
@@ -250,34 +257,38 @@
           </div>
 
           <!-- Video -->
-          <div style="margin-left: 50rem;">
-            <div class="section__header section__header--center">
-              <h2 class="section__title" style="color: #08fdd8; " >Video Projects</h2>
-            </div>
-          </div>
+         <div class="vidhead">
+           <div class="section__header section__header--center">
+             <h2 class="section__title" style="color: #08fdd8; " >Video Projects</h2>
+           </div>
+         </div>
            
-
-          <div class="video_box">
-            <div class="card" style="width:56rem; border-radius: 0.7rem; ">
-             <video style=" width: 56rem;"  controls  >
-              <source src="assets/itFits Promo copy.mp4" type=video/mp4>
-             </video>
-              <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              </div>
-            </div>
-
-            <div class="card" style="width:56rem; border-radius: 0.7rem; ">
-              <video style=" width: 56rem;"  controls  >
+        <div class="video_box">
+          <div class="portfolio__box" style="background-color:#1f1f1f;">
+            <div class="trycontainer">
+               <video  controls  >
                 <source src="assets/itFits Promo copy.mp4" type=video/mp4>
                </video>
-               <div class="card-body">
-                <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
               </div>
             </div>
-
-
           </div>
+  
+          <div class="portfolio__box" style="background-color:#1f1f1f;">
+            <div class="trycontainer">
+               <video  controls  >
+                <source src="assets/itFits Promo copy.mp4" type=video/mp4>
+               </video>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+          
+
+          
 
         </div>
         <div class="section__footer" >
@@ -316,7 +327,7 @@
             </ul>
           </div>
           <div class="about__right">
-            <img src="assets/lins.png" alt="Profile Picture" v />
+            <img src="assets/lins.png" alt="Profile Picture" style="margin-left: 50px;"  />
           </div>
         </div>
       </div>
